@@ -14,6 +14,7 @@ ul {
     margin: 0;
     display: flex;
     background-color: #1b7019;
+    justify-content: left;
 }
 
 ul li {
@@ -26,9 +27,14 @@ ul li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+ul li a.active {
+    background-color: #012500;
+}
+
 ul li a:hover {
-    background-color: #00ffb7;
-    color: #1b7019;
+    background-color: #012500;
+    color: #17b315;
 }
 
 ul {
@@ -46,25 +52,25 @@ ul {
     gap: 20px;
 }
 
-left-side{
+.left-side {
     flex: 1;
 }
 
-right-side{
+.right-side {
     flex: 2;
 }
 
 .profile-box, .blurbs-box, .music-box {
-    background-color: #ffff
-border: 2px solid #1b7019;
-    padding: 12px;
+    background-color: #032500ab;
+    border: 2px solid #1b7019;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
 .profile-box h2, .blurbs-box h2, .music-box h2 {
-    background-color: #155c14;
+    background-color: #1ab317;
     color: #fff;
-    font-size: 14px;
+    font-size: 24px;
 
     margin: -12px -12px 12px -12px;
     padding: 6px 10px;
@@ -74,13 +80,14 @@ border: 2px solid #1b7019;
     max-height: 400px;
     overflow-y: auto;
     padding-right: 15px;
+    background-color: #032500ab;
 }
 .blurbs-box h2:not(first-child) {
    background-color: transparent;
-   color: #135012;
+   color: #10bd0d;
    margin: 20px 0 5px 0;
    padding: 0;
-   font-size: 16px;
+   font-size: 26px;
    border-bottom: 1px dashed #1b7019;
 }
 
@@ -88,22 +95,23 @@ border: 2px solid #1b7019;
     font-size: 13px;
     line-height: 1.5;
     margin: 0 0 15px 0;
+  
 }
 
 .profile-box {
-    text-align: center;
+    text-align: left;
 }
 
 .profile-pic {
-    width: 120%;
-    max-width: 170px;
+    width: 200%;
+    max-width: 250px;
     height: auto;
     border: 1px solid #1b7019;
-    margin:10px 0;
+    margin:20px -40px;
 }
 
 .status {
-    font-size: 12px;
+    font-size: 18px;
     font-style: italic;
     color:#00ffb7;
     margin-top: 5px;
