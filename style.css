@@ -8,6 +8,37 @@ body {
     color: #fff;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #1b7019;
+}
+
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #00ffb7;
+    color: #1b7019;
+}
+
+ul {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
 .profile-layout{
     max-width: 950px;
     margin: 0 auto;
@@ -31,7 +62,7 @@ border: 2px solid #1b7019;
 }
 
 .profile-box h2, .blurbs-box h2, .music-box h2 {
-    background-color: #1b7019;
+    background-color: #155c14;
     color: #fff;
     font-size: 14px;
 
@@ -46,7 +77,7 @@ border: 2px solid #1b7019;
 }
 .blurbs-box h2:not(first-child) {
    background-color: transparent;
-   color: #1b7019;
+   color: #135012;
    margin: 20px 0 5px 0;
    padding: 0;
    font-size: 16px;
