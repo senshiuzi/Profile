@@ -53,10 +53,12 @@ ul {
 }
 
 .left-side {
+  float: left;
     flex: 1;
 }
 
 .right-side {
+    float: right;
     flex: 2;
 }
 
@@ -80,7 +82,9 @@ ul {
     max-height: 400px;
     overflow-y: auto;
     padding-right: 15px;
+    padding-left: 10px;
     background-color: #032500ab;
+ 
 }
 .blurbs-box h2:not(first-child) {
    background-color: transparent;
@@ -95,11 +99,13 @@ ul {
     font-size: 13px;
     line-height: 1.5;
     margin: 0 0 15px 0;
+    height: auto;
+    float: right;
   
 }
 
 .profile-box {
-    text-align: left;
+    float: left;
 }
 
 .profile-pic {
