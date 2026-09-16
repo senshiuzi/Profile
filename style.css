@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-image: url('minecraft_dirt_wallpaper_by_thedevartist_d3l1qoj-pre.jpg');
+    background-repeat: repeat;
+    background-color: #135e12;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.profile-layout{
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+left-side{
+    flex: 1;
+}
+
+right-side{
+    flex: 2;
+}
+
+.profile-box, .blurbs-box, .music-box {
+    background-color: #ffff
+border: 2px solid #1b7019;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.profile-box h2, .blurbs-box h2, .music-box h2 {
+    background-color: #1b7019;
+    color: #fff;
+    font-size: 14px;
+
+    margin: -12px -12px 12px -12px;
+    padding: 6px 10px;
+}
+
+.blurbs-box {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+.blurbs-box h2:not(first-child) {
+   background-color: transparent;
+   color: #1b7019;
+   margin: 20px 0 5px 0;
+   padding: 0;
+   font-size: 16px;
+   border-bottom: 1px dashed #1b7019;
+}
+
+.blurbs-box p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+}
+
+.profile-box {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 120%;
+    max-width: 170px;
+    height: auto;
+    border: 1px solid #1b7019;
+    margin:10px 0;
+}
+
+.status {
+    font-size: 12px;
+    font-style: italic;
+    color:#00ffb7;
+    margin-top: 5px;
+}
+
+.corner-overlay { 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    z-index: 9999;
+    pointer-events: none;
+}
